@@ -30,6 +30,7 @@
             Usuario <input type="text" name="usuario"> <br> <br>
             Password <input type="password" name="clave"> <br>
             fecha_nacimiento <input type="text" name="fecha de nacimeinto"> <br>
+            echo "<p>Género: " . ($genero == "masculino" ? "Masculino" : "Femenino") . "</p>";
             <input type="submit" value="Login">
         </form>
     </body>
